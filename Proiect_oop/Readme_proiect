@@ -1,0 +1,19 @@
+In proiectul meu – atelier de ceasuri – am incercat sa aduc toate functionaliatile pe care le poate avea un astfel de atelier .
+Asa ca am inceput cu clasa cu crearea claselor :
+•	Client unde am toate datele necesare ( id , nume , prenume , email)
+o	Client VIP ( mostenire ) pe care o folosesc prentu a adauga un discount clienentilor “fideli”	
+•	Ceas legata prin FK ( in baza de date  prin id_client) , care retine date despre ceasuri ( id , marca model , pret) , clasa foarte importanta , folosita in clasa serviceatelier pentru realizarea listei , iar in ceas DAO folosesc obiectele de tip ceas pentru citirea sau scrierea din baza de date.
+•	Angajat pentru a tine evidenta tutror angajatilor
+o	Mecanic pentru a putea vedea cine a facut reparatia ceasurilor
+•	ServiceAtelier am folosit-o pentru logica aplicatiei 
+•	Reparatii clasa care reține informații despre o reparație făcută unui ceas si implementeaza compararea ca TreeSet sa sorteze formand o colectie sortata
+•	Main -ul ma ajuta sa introduc datele .
+
+Ce poate face proiectul meu : 
+•  daug clienți și ceasuri
+•  înregistrez reparații cu dată și cost
+•  pot căuta ceasuri după marcă sau după client
+•  pot modifica sau șterge ceasuri
+•  pot vedea reparațiile în ordine cronologică
+•  totul se salvează în baza de date
+
